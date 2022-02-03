@@ -1,2 +1,13 @@
-
+git.exe安装成功后设置用户名密码
+git config --global user.name "yourname"
+git config --global user.email“your@email.com"
+git config --global list 查看信息
+$ ssh-keygen -t rsa -C "your@email.com"生成秘钥
+clip < ~/.ssh/id_rsa.pub此命令用来获得rsa的公钥,设置到GitHub上
 Git的菜单没有commit需要在设置setting中手动更改配置
+有可能出现Pushed master to new branch origin/master错误,需要打开项目下
+git pull
+git pull origin master --allow-unrelated-histories
+git push -u origin master -f
+刷新idea的pull重新上传
+@springbootapplication出错可能是将启动类直接放到java文件夹下,可以    @ComponentScan来进行指定
