@@ -11,10 +11,16 @@
         <module name="demo_1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo1" target="1.8" />
+      <module name="excelapache" target="1.8" />
+      <module name="excle" target="1.8" />
+      <module name="nacos" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="club" options="" />
+      <module name="club" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo_1" options="-parameters" />
     </option>
