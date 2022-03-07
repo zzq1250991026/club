@@ -14,3 +14,4 @@ git push -u origin master -f
 
 #3.1问题
 ssh: Could not resolve hostname github.com: Name or service not known
+日志级别：ERROR, WARN, INFO, DEBUG or TRACE
