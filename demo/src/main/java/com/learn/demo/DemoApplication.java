@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /*@MapperScans(
         @MapperScan(basePackages = SystemCst.BASE_PACKAGE,
                 sqlSessionTemplateRef = SystemCst.SQL_SESSION_TEMPLATE)*/
-@MapperScans(@MapperScan("com.learn.demo.mapper.*"))
+@MapperScans({@MapperScan("com.learn.demo.mapper.*"),@MapperScan("com.learn.demo.dao")})
 public class DemoApplication {
     public static void main(String[] args) {
         String [] a={"",""};
