@@ -1,0 +1,5 @@
+Oracle：
+3_10.需要远程连接oracle数据库，1.配置工具->环境。的驱动
+2出现12541无法监听程序问题，12505程序未启动问题
+3解决12541，需进入\Administrator\product\11.2.0\dbhome_1\NETWORK\ADMIN找到
+tnsnames.ora与lisener.ora文件进行localhost的服务器修改，再重启服务得到解决
