@@ -8,6 +8,10 @@ class DemoApplicationTests {
 
     @Test
     void contextLoads() {
+      Pool pool=new DBConnectionPool();
+    }
+    void HungryTest(){
+        new HungrySingle();
     }
 
 }
