@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: microservice-provide-user22
+  freemarker:
+    cache: false
+    charset: UTF-8 #模板的字符编码
+    content-type: text/xml; charset=utf-8
+    expose-spring-macro-helpers: false # 是否公开一个名为“springMacroRequestContext”的RequestContext以供Spring的宏库使用。
+    suffix: .ftl #在构建URL时附加到查看名称的后缀。
+    template-loader-path: classpath:/templates/ #多个路径以逗号分隔
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+server:
+  port: 8022

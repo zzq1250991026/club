@@ -8,11 +8,4 @@
         SELECT * FROM Coure;
     </select>
 
-    <insert id="insert" parameterType="com.learn.demo.bean.Coure">
-        INSERT INTO student (name,score,age,gender) VALUES (#{name},#{score},#{age},#{gender});
-    </insert>
-
-    <delete id="delete" parameterType="int">
-        DELETE FROM student WHERE id = #{id};
-    </delete>
 </mapper>

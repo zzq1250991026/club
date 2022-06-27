@@ -8,14 +8,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="excel" />
-        <module name="demo" />
         <module name="demo_1" />
+        <module name="microservice-simple-provider-user" />
+        <module name="microservice-simple-provider-user4" />
+        <module name="microservice-discovery-eurake" />
+        <module name="microservice-discovery-eurake-ha" />
+        <module name="microservice-eureka-client" />
+        <module name="demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo1" target="1.8" />
+      <module name="eurekaclient3" target="1.8" />
       <module name="excelapache" target="1.8" />
       <module name="excle" target="1.8" />
+      <module name="gpspring" target="1.8" />
+      <module name="gupaoedu" target="1.8" />
+      <module name="microservice-provider-user" target="1.8" />
       <module name="nacos" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -24,7 +33,16 @@
       <module name="club" options="" />
       <module name="demo" options="-parameters" />
       <module name="demo_1" options="-parameters" />
+      <module name="eurekaclient3" options="-parameters" />
       <module name="excel" options="-parameters" />
+      <module name="gpspring" options="-parameters" />
+      <module name="gupaoedu" options="-parameters" />
+      <module name="microservice-discovery-eurake" options="-parameters" />
+      <module name="microservice-discovery-eurake-ha" options="-parameters" />
+      <module name="microservice-eureka-client" options="-parameters" />
+      <module name="microservice-provider-user" options="-parameters" />
+      <module name="microservice-simple-provider-user" options="-parameters" />
+      <module name="microservice-simple-provider-user4" options="-parameters" />
     </option>
   </component>
 </project>

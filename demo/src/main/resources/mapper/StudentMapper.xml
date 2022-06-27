@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--id与basemapper-->
+<mapper namespace="com.learn.demo.dao.StudentDao">
+    <select id="findAll" resultType="com.learn.demo.bean.Student">
+        SELECT Sname,S,Sage,Ssex FROM student order by ${by} desc;
+    </select>
+
+    <insert id="inserts" parameterType="java.util.List">
+        INSERT INTO student (S,Sname,Sage,Ssex) VALUES
+        <foreach collection="students" index="index" item="item" separator=",">
+           (#{item.S},#{item.Sname},#{item.Sage},#{item.Ssex})
+        </foreach>;
+    </insert>
+    <!-- 批量插入内容 -->
+    <insert id="insertBatch" parameterType="java.util.List">
+        INSERT INTO student (S,Sname,Sage,Ssex) VALUES ('25',"sss",'',"男");
+    </insert>
+    <!--查询生日-->
+    <select id="findBysage"  resultType="com.learn.demo.bean.Student">
+        select * from student where sage like '${sage}%';
+    </select>
+</mapper>

@@ -3,7 +3,17 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo_1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaclient3/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/excel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gpspring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery-eurake-ha/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery-eurake/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery-eurake/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-simple-provider-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-simple-provider-user4/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

@@ -8,6 +8,9 @@ class ExcelApplicationTests {
 
     @Test
     void contextLoads() {
+        User user = new User();
+        System.out.println(user.getClass().getDeclaredFields());
+        System.out.println(user);
     }
 
 }

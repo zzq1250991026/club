@@ -1,4 +1,3 @@
-
 server:
   port: 8088
 spring:
@@ -10,5 +9,21 @@ spring:
   freemarker:
     suffix: .html
     template-loader-path: classpath:/templates/
-mybatis:
-  mapper-locations: classpath:mapper
+#mybatis:
+  #mapper-locations: classpath:mapper/*.xml
+  #configuration:
+    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  #type-aliases-package: com.learn.demo.bean
+  #mybatis-plus配置
+  main:
+    lazy-initialization: true
+mybatis-plus:
+  # 配置Mybatis数据返回类型别名（默认别名为类名）
+  type-aliases-package: com.learn.demo.bean
+  #配置Mapper映射文件
+  mapper-locations: classpath:/mapper/*.xml
+  configuration:
+    # 自动驼峰命名
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
